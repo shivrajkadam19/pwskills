@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="astro HTML5 Boostrap website Template">
+
+    <title>Techelons'24 | P.R.Pote(Patil) </title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/media/Techelons.png">
+
+    <!-- All CSS files -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/vendor/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/vendor/slick.css">
+    <link rel="stylesheet" href="assets/css/vendor/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/vendor/sal.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <!-- <link rel="stylesheet" href="assets/css/timer.css"> -->
+    <!-- <link rel="stylesheet" href="assets/css/preloader.css"> -->
+    <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
+
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-266165434-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-266165434-1');
+    </script>
+
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <!-- <div id="preloader">
+        <div class="frame">
+
+            <div class="loader">
+
+                <div class="loader-ring"></div>
+
+                <div class="rocket-wrapper">
+                    <div class="trail-wrapper">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/61488/trail.png" alt="" class="trail" />
+                    </div>
+                    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/61488/small-rocket.png" alt=""
+                        class="rocket" />
+                </div>
+
+                <div class="clouds-wrapper">
+
+                    <svg class="clouds" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92 90.83">
+                        <defs>
+                            <clipPath id="clip-path" transform="translate(1.75)">
+                                <circle cx="42.5" cy="42.5" r="42.5" fill="none" />
+                            </clipPath>
+                            <filter id="goo" color-interpolation-filters="sRGB">
+                                <feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur" />
+                                <feColorMatrix in="blur" mode="matrix"
+                                    values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -11" result="goo" />
+                                <feBlend in="SourceGraphic" in2="goo" />
+                            </filter>
+                            <filter id="blurMe">
+                                <feGaussianBlur in="SourceGraphic" stdDeviation="0.9" />
+                            </filter>
+                        </defs>
+                        <g clip-path="url(#clip-path)" fill="#eef2f3" filter="url(#goo)">
+                            <g class="clouds-wrapper" filter="url(#blurMe)">
+                                <ellipse class="cloud" cx="40" cy="61.83" rx="7" ry="7" />
+                                <ellipse class="cloud" cx="81" cy="68.83" rx="8" ry="8" />
+                                <ellipse class="cloud" cx="6" cy="63.83" rx="6" ry="6" />
+                                <ellipse class="cloud" cx="15" cy="70.83" rx="11" ry="11" />
+                                <ellipse class="cloud" cx="65" cy="74.83" rx="11" ry="11" />
+                                <ellipse class="cloud" cx="48" cy="71.83" rx="14" ry="14" />
+                                <ellipse class="cloud" cx="34" cy="75.83" rx="16" ry="16" />
+                            </g>
+                        </g>
+                    </svg>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div> -->
+
+    <div id="preloader">
+        <img src="assets/media/bg/loading-now-loading.gif" alt="" srcset="">
+    </div>
+    <!-- Back To Top Start -->
+    <a href="#main-wrapper" id="backto-top" class="back-to-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+    <!-- Main Wrapper Start -->
+    <div id="main-wrapper" class="main-wrapper overflow-hidden">
+
+        <!-- Header Area Start -->
+        <header class="header st-1">
+            <div class="container">
+                <nav class="navbar navbar-expand-xl align-items-xl-center align-items-start p-0">
+
+                    <div class="col-xl-3 ">
+                        <a class="navbar-brand" href="index.html"><img alt="" src="assets/media/tec-24.png"
+                                width="285px"></a>
+                    </div>
+                    <div class="col-xl-9 text-end">
+                        <button class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                            data-bs-target="#mynavbar">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end text-start" id="mynavbar">
+                            <ul class="navbar-nav mainmenu align-items-xl-center m-0">
+                                <!-- <li class="menu-item-has-children"><a href="index.html" class="active">Home</a></li> -->
+                                <li class="menu-item-has-children"><a href="event.html">Events</a></li>
+                                <!-- <li class="menu-item-has-children"><a href="javascript:void(0);">Events</a>
+                                    <ul class="submenu">
+                                        <li class="menu-item"><a href="#">Services</a></li>
+                                        <li class="menu-item"><a href="#">Blogs</a></li>
+                                        <li class="menu-item"><a href="#">Blog Detail</a></li>
+                                        <li class="menu-item"><a href="#">Detail</a></li>
+                                    </ul>
+                                </li>
+                                <li class="menu-item-has-children"><a href="#">Contact Us</a></li> -->
+                                <li class="menu-item-has-children p-0"><a href="event.html" class="light-btn active">Register
+                                        Now!</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </nav>
+            </div>
+        </header>
+        <!-- Header Area end -->
+
+        <!-- Banner Area start -->
+        <section class="banner">
+            <div class="container">
+                <h2 class="fw-6 fs-80 "><b class="color-light">Unleash</b> The Craze<br> of &nbsp;Techelons'24</h2>
+                <div class="col-xl-10 col-lg-8 col-sm-12 ms-64">
+                    <p class="fw-5 fs-19 ">Techelons is one of the most important and well known technical festivals
+                        organized by P. R. Pote Patil Educational Group, Amravati under the guidance of Shri Pravin Pote
+                        Patil and Shri Shreyas Dada Pote Patil.
+                        In the last 10 Years of Techelons Journey, various well-known and world famous international
+                        guests have arrived and inaugurated the events.
+                        Techelons is the technical festival which provides a platform to the participants from
+                        multidisciplinary fields to show their talents and win exiting and bumper prizes.
+                        We welcome you all in Techelons 2024 at P. R. Pote Patil Educational Group, Amravati.</p>
+                </div><br><br>
+                <a href="event.html" class="light-btn">Register !</a>
+            </div>
+        </section>
+        <!-- Banner Area end -->
+
+        <!-- about Area start -->
+        <section class="about bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 mb-32">
+                        <h2 class="fw-4 fs-80 my-5"><b>Daily</b> Events!</h2>
+                        <div class="horoscope-slider">
+                            <div class="item">
+                                <a href="#">
+                                    <img src="assets/media/icon/horoscope-icon-1.png" alt="">
+                                    <span class="light-text">Techelons</span>
+                                    <span>'24</span>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img src="assets/media/icon/horoscope-icon-2.png" alt="">
+                                    <span class="light-text">Unmesh</span>
+                                    <span>'24</span>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img src="assets/media/icon/horoscope-icon-3.png" alt="">
+                                    <span class="light-text">Mayurotsav</span>
+                                    <span>'24</span>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img src="assets/media/icon/horoscope-icon-4.png" alt="">
+                                    <span class="light-text">Sports Week</span>
+                                    <span>'24</span>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#l">
+                                    <img src="assets/media/icon/horoscope-icon-5.png" alt="">
+                                    <span class="light-text">Dj Night</span>
+                                    <span>'24</span>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img src="assets/media/icon/horoscope-icon-6.png" alt="">
+                                    <span class="light-text">Antarnaad</span>
+                                    <span>'24</span>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#l">
+                                    <img src="assets/media/icon/horoscope-icon-7.png" alt="">
+                                    <span class="light-text">Techelons</span>
+                                    <span>'24</span>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img src="assets/media/icon/horoscope-icon-8.png" alt="">
+                                    <span class="light-text">Mayurotsav</span>
+                                    <span>'24</span>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img src="assets/media/icon/horoscope-icon-9.png" alt="">
+                                    <span class="light-text">Unmesh</span>
+                                    <span>'24</span>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img src="assets/media/icon/horoscope-icon-10.png" alt="">
+                                    <span class="light-text">Sports Week</span>
+                                    <span>'24</span>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img src="assets/media/icon/horoscope-icon-11.png" alt="">
+                                    <span class="light-text">DJ Night</span>
+                                    <span>'24</span>
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img src="assets/media/icon/horoscope-icon-12.png" alt="">
+                                    <span class="light-text">Antarnaad</span>
+                                    <span>'24</span>
+                                </a>
+                            </div>
+                        </div>
+                        <p>Join us for an unforgettable experience at TECHELONS, the grand event of P.R. Pote Patil College of Engineering and Management! Embrace innovation, celebrate talent, and connect with fellow students and enthusiasts. Don't miss out on a day filled with exciting activities, inspiring talks, and endless opportunities. Save the date and be part of this vibrant gathering!</p>
+                        <a href="event.html" class="light-btn active">
+                            <span>2K24</span>
+                            <span>Get Registered!</span>
+                        </a>
+
+                    </div>
+                    <div class="col-xl-7 offset-xl-1">
+                        <div class="about-detail">
+                            <div class="row">
+                                <center>
+                                    <h2 class="fw-36"> Chief Guests 2k24</h2>
+                                    <hr style="height: 2px; color: #042628; width: 650px;">
+                                </center>
+                                <div class="col-xxl-7 col-xl-6 mb-36 order-1 my-5">
+                                    <h2 class="fw-7 fs-47">Hon. Jaya Kishori</h2>
+                                    <h4 style="color: rgb(1, 77, 1)">Motivational Spreaker &<br> Spiritual Orator
+                                    </h4>
+                                </div>
+                                <div class="col-xxl-5 col-xl-6 order-2 mb-48">
+                                    <img src="assets/media/Chief-Guests/jayakishori.png" alt="">
+                                </div>
+                                <div class="col-xxl-5 col-xl-6 order-xl-3 order-4 mb-48">
+                                    <img src="assets/media/Chief-Guests/PDKilledar1.JPG" alt="">
+                                </div>
+                                <div class="col-xxl-7 col-xl-6 mb-48 text-xl-end order-xl-4 order-3 my-5">
+                                    <h2 class="fw-7 fs-47">Hon. Pankaj Killedar</h2>
+                                    <h4 style="color: rgb(1, 77, 1)">Director, Master Control Facility,<br>Senior Scientist, ISRO</h4>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- about Area end -->
+
+        <!-- service Area start -->
+        <section class="service inverse-bg pt-64 pb-40 ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 offset-xl-3">
+                        <div class="heading text-center">
+                            <h2 class=""><b>Participate</b> in the Events</h2>
+                            <p>There are various events in the annual tech festival at P.R.Pote Patil Group of
+                                Educational Institutions, Amravati. <br>
+                                Specific faculty co-ordinators as well as Student co-ordinators to attend your queries.
+                                <br>
+                                Enhance opportunities in different life areas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-3 col-md-6">
+                        <a href="#" class="service-block mb-24 top-margin">
+                            <img src="assets/media/service/robotics.jpg" alt="">
+                            <div class="overlay">
+                                <h2 class="fs-47">Catia</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xl-3 col-md-6">
+                        <a href="#" class="service-block mb-24">
+                            <img src="assets/media/service/lan.jpg" alt="">
+                            <div class="overlay">
+                                <h2 class="fs-47">LAN Gaming</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xl-3 col-md-6">
+                        <a href="#" class="service-block mb-24">
+                            <img src="assets/media/service/anvshan.jpg" alt="">
+                            <div class="overlay">
+                                <h2 class="fs-47">Anveshan</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xl-3 col-md-6">
+                        <a href="#" class="service-block mb-24 top-margin">
+                            <img src="assets/media/service/structfast.jpg" alt="">
+                            <div class="overlay">
+                                <h2 class="fs-47">Struct Fast</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="event.html" class="light-btn lh-140">
+                        View More
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- service Area end -->
+
+        <!-- client Area start -->
+        <section class="client inverse-bg pt-50 ">
+            <div class="container">
+                <div class="heading text-center mb-24">
+                    <h2 class=""><b>Meet Our</b> Mentor</h2>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="client-slider">
+                            <div class="item">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-5">
+                                        <div class="client-image">
+                                            <img src="assets/media/about/mentor.png" alt="">
+                                            <img src="assets/media/icon/star-icon.png" class="shape" alt="">
+                                            <img src="assets/media/icon/star-icon.png" class="shape2" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <div class="content">
+                                            <div class="d-flex align-items-center mb-8">
+                                                <h2 class="fs-47">Shri. Ramchandraji Pote Patil</h2>
+                                            </div>
+                                            <p>"Empowering minds, shaping futures. Our commitment to excellence in
+                                                education is a journey we embark on together. Embrace the opportunities,
+                                                overcome challenges, and let knowledge be your guide. Welcome to a
+                                                transformative learning experience."</p>
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <img src="assets/media/icon/quote.png" class="quote-image" alt="">
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- client Area end -->
+
+        <!-- service Area start -->
+        <section class="service bg pt-50 pb-26 ">
+            <div class="container">
+                <div class="heading text-center">
+                    <h2 class=""><b>Our</b> Pillars</h2>
+                    <center>
+                        <hr style="height: 2px; color: #fff; width: 350px;">
+                    </center>
+                    <p>It is our firm belief that Education should be complete, must be humane; it must <br> include not
+                        only the training of the intellect but also the refinement of the <br> heart and the discipline
+                        of the spirit.</p>
+                </div>
+                <div class="row">
+                    <div class="col-xl-2 col-12" ">
+                    
+                    </div>
+                    <div class=" col-xl-4 col-md-6 col-12" ">
+                        <div class=" service-block mb-24 br-60" style="border: 2px solid #f1dab0;">
+                        <img src="assets/media/about/chairman.png" alt="">
+                        <div class="title">
+                            <h4 class="fs-36">Shri. Pravin Pote<br> Patil</h4>
+                            <p>Chairman</p>
+                        </div>
+                        <ul class="socail-link list-unstyled">
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li>
+                                <a href="#">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip01_2_254)">
+                                            <path
+                                                d="M31.6553 6.43528C29.6423 6.52805 29.6863 6.52048 29.4587 6.53953L30.6509 3.13499C30.6509 3.13499 26.9297 4.50388 25.9863 4.74876C23.5088 2.52195 19.8262 2.42356 17.1934 4.04173C15.0374 5.36716 13.8801 7.64329 14.2661 10.3037C10.0701 9.72141 6.53467 7.7324 3.74341 4.37937L2.8606 3.31907L2.20093 4.53049C1.36719 6.06126 1.09033 7.8115 1.42114 9.45872C1.55688 10.1345 1.7876 10.779 2.10718 11.3825L1.34985 11.0891L1.26001 12.3545C1.16895 13.6399 1.59692 15.1404 2.40503 16.3679C2.63257 16.7136 2.92554 17.0932 3.29687 17.4678L2.90552 17.4077L3.38306 18.8576C4.01074 20.7627 5.31445 22.2365 7.00635 23.0559C5.31665 23.7729 3.95166 24.2304 1.70801 24.9685L-0.344727 25.6433L1.55127 26.6799C2.27417 27.0752 4.82861 28.3952 7.35254 28.7912C12.9629 29.6711 19.2795 28.9546 23.532 25.1247C27.1138 21.8989 28.2891 17.3103 28.0449 12.5351C28.0081 11.8122 28.2061 11.1223 28.6025 10.5928C29.3967 9.53245 31.6504 6.44236 31.6553 6.43528ZM27.1033 9.4697C26.4448 10.3489 26.115 11.4717 26.1741 12.6308C26.4204 17.4475 25.1099 21.1828 22.2786 23.7326C18.9712 26.7114 13.6365 27.8806 7.64282 26.9404C6.55737 26.7702 5.43555 26.3891 4.50708 26.0085C6.38818 25.3613 7.84082 24.7844 10.1868 23.674L13.4617 22.124L9.84595 21.8926C8.11401 21.7817 6.67187 20.9424 5.7854 19.5796C6.2561 19.5522 6.70996 19.4761 7.16186 19.3501L10.6104 18.3896L7.13306 17.5381C5.44336 17.1242 4.48022 16.1133 3.96973 15.3379C3.63452 14.8283 3.41553 14.3064 3.28418 13.8252C3.63281 13.9187 4.03931 13.9853 4.69482 14.0503L7.91333 14.3686L5.36328 12.3794C3.52588 10.9463 2.78955 8.79319 3.32935 6.72337C9.06372 12.6711 15.7966 12.2241 16.4744 12.3813C16.3252 10.9324 16.3213 10.9289 16.2822 10.791C15.4143 7.72288 17.3164 6.16502 18.1743 5.63767C19.9663 4.53635 22.8108 4.37034 24.781 6.18479C25.2065 6.57639 25.782 6.73045 26.3206 6.59666C26.804 6.47654 27.2007 6.34934 27.5891 6.21091L26.7805 8.52L27.8127 8.52073C27.6179 8.78196 27.3843 9.0947 27.1033 9.4697Z"
+                                                fill="#797D86" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip01_2_254">
+                                                <rect width="32" height="32" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-6 col-12">
+                    <div class="service-block mb-24 br-60" style="border: 2px solid #f1dab0;">
+                        <img src="assets/media/about/vice-chairman.png" alt="">
+                        <div class="title">
+                            <h4 class="fs-36">Shri. Shreyas Pote<br> Patil</h4>
+                            <p>Vice-Chairman</p>
+                        </div>
+                        <ul class="socail-link list-unstyled">
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li>
+                                <a href="#">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip30_2_254)">
+                                            <path
+                                                d="M31.6553 6.43528C29.6423 6.52805 29.6863 6.52048 29.4587 6.53953L30.6509 3.13499C30.6509 3.13499 26.9297 4.50388 25.9863 4.74876C23.5088 2.52195 19.8262 2.42356 17.1934 4.04173C15.0374 5.36716 13.8801 7.64329 14.2661 10.3037C10.0701 9.72141 6.53467 7.7324 3.74341 4.37937L2.8606 3.31907L2.20093 4.53049C1.36719 6.06126 1.09033 7.8115 1.42114 9.45872C1.55688 10.1345 1.7876 10.779 2.10718 11.3825L1.34985 11.0891L1.26001 12.3545C1.16895 13.6399 1.59692 15.1404 2.40503 16.3679C2.63257 16.7136 2.92554 17.0932 3.29687 17.4678L2.90552 17.4077L3.38306 18.8576C4.01074 20.7627 5.31445 22.2365 7.00635 23.0559C5.31665 23.7729 3.95166 24.2304 1.70801 24.9685L-0.344727 25.6433L1.55127 26.6799C2.27417 27.0752 4.82861 28.3952 7.35254 28.7912C12.9629 29.6711 19.2795 28.9546 23.532 25.1247C27.1138 21.8989 28.2891 17.3103 28.0449 12.5351C28.0081 11.8122 28.2061 11.1223 28.6025 10.5928C29.3967 9.53245 31.6504 6.44236 31.6553 6.43528ZM27.1033 9.4697C26.4448 10.3489 26.115 11.4717 26.1741 12.6308C26.4204 17.4475 25.1099 21.1828 22.2786 23.7326C18.9712 26.7114 13.6365 27.8806 7.64282 26.9404C6.55737 26.7702 5.43555 26.3891 4.50708 26.0085C6.38818 25.3613 7.84082 24.7844 10.1868 23.674L13.4617 22.124L9.84595 21.8926C8.11401 21.7817 6.67187 20.9424 5.7854 19.5796C6.2561 19.5522 6.70996 19.4761 7.16186 19.3501L10.6104 18.3896L7.13306 17.5381C5.44336 17.1242 4.48022 16.1133 3.96973 15.3379C3.63452 14.8283 3.41553 14.3064 3.28418 13.8252C3.63281 13.9187 4.03931 13.9853 4.69482 14.0503L7.91333 14.3686L5.36328 12.3794C3.52588 10.9463 2.78955 8.79319 3.32935 6.72337C9.06372 12.6711 15.7966 12.2241 16.4744 12.3813C16.3252 10.9324 16.3213 10.9289 16.2822 10.791C15.4143 7.72288 17.3164 6.16502 18.1743 5.63767C19.9663 4.53635 22.8108 4.37034 24.781 6.18479C25.2065 6.57639 25.782 6.73045 26.3206 6.59666C26.804 6.47654 27.2007 6.34934 27.5891 6.21091L26.7805 8.52L27.8127 8.52073C27.6179 8.78196 27.3843 9.0947 27.1033 9.4697Z"
+                                                fill="#797D86" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip20_2_254">
+                                                <rect width="32" height="32" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><br>
+            <div class="heading text-center">
+                <h2 class=""><b>Our</b> Principal</h2>
+                <center>
+                    <hr style="height: 2px; color: #fff; width: 350px;">
+                </center>
+
+                <p>I welcome you at P. R. Pote Patil College of Engineering & Management, Amravati.<br> Let us embark on
+                    this exciting journey together , and may you all excel and <br> achieve greatness in the pursuit of
+                    engineering excellence.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-xl-4 col-md-3 col-12" ">
+                    
+                </div>
+                <div class=" col-xl-4 col-md-6 col-12" ">
+                    <div class=" service-block mb-24 br-60" style="border: 2px solid #f1dab0;">
+                    <img src="assets/media/about/vice-principal.png" alt="">
+                    <div class="title">
+                        <h4 class="fs-36">Dr. Mohammad<br> Zuhair</h4>
+                        <p>Principal</p>
+                    </div>
+                    <ul class="socail-link list-unstyled">
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li>
+                            <a href="#">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip01_2_254)">
+                                        <path
+                                            d="M31.6553 6.43528C29.6423 6.52805 29.6863 6.52048 29.4587 6.53953L30.6509 3.13499C30.6509 3.13499 26.9297 4.50388 25.9863 4.74876C23.5088 2.52195 19.8262 2.42356 17.1934 4.04173C15.0374 5.36716 13.8801 7.64329 14.2661 10.3037C10.0701 9.72141 6.53467 7.7324 3.74341 4.37937L2.8606 3.31907L2.20093 4.53049C1.36719 6.06126 1.09033 7.8115 1.42114 9.45872C1.55688 10.1345 1.7876 10.779 2.10718 11.3825L1.34985 11.0891L1.26001 12.3545C1.16895 13.6399 1.59692 15.1404 2.40503 16.3679C2.63257 16.7136 2.92554 17.0932 3.29687 17.4678L2.90552 17.4077L3.38306 18.8576C4.01074 20.7627 5.31445 22.2365 7.00635 23.0559C5.31665 23.7729 3.95166 24.2304 1.70801 24.9685L-0.344727 25.6433L1.55127 26.6799C2.27417 27.0752 4.82861 28.3952 7.35254 28.7912C12.9629 29.6711 19.2795 28.9546 23.532 25.1247C27.1138 21.8989 28.2891 17.3103 28.0449 12.5351C28.0081 11.8122 28.2061 11.1223 28.6025 10.5928C29.3967 9.53245 31.6504 6.44236 31.6553 6.43528ZM27.1033 9.4697C26.4448 10.3489 26.115 11.4717 26.1741 12.6308C26.4204 17.4475 25.1099 21.1828 22.2786 23.7326C18.9712 26.7114 13.6365 27.8806 7.64282 26.9404C6.55737 26.7702 5.43555 26.3891 4.50708 26.0085C6.38818 25.3613 7.84082 24.7844 10.1868 23.674L13.4617 22.124L9.84595 21.8926C8.11401 21.7817 6.67187 20.9424 5.7854 19.5796C6.2561 19.5522 6.70996 19.4761 7.16186 19.3501L10.6104 18.3896L7.13306 17.5381C5.44336 17.1242 4.48022 16.1133 3.96973 15.3379C3.63452 14.8283 3.41553 14.3064 3.28418 13.8252C3.63281 13.9187 4.03931 13.9853 4.69482 14.0503L7.91333 14.3686L5.36328 12.3794C3.52588 10.9463 2.78955 8.79319 3.32935 6.72337C9.06372 12.6711 15.7966 12.2241 16.4744 12.3813C16.3252 10.9324 16.3213 10.9289 16.2822 10.791C15.4143 7.72288 17.3164 6.16502 18.1743 5.63767C19.9663 4.53635 22.8108 4.37034 24.781 6.18479C25.2065 6.57639 25.782 6.73045 26.3206 6.59666C26.804 6.47654 27.2007 6.34934 27.5891 6.21091L26.7805 8.52L27.8127 8.52073C27.6179 8.78196 27.3843 9.0947 27.1033 9.4697Z"
+                                            fill="#797D86" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip01_2_254">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+    </div>
+    </div>
+    </section>
+    <!-- service Area end -->
+
+
+    <!-- Blog Area start -->
+    <section class="blog bg pt-50">
+        <div class="container">
+            <div class="heading text-center">
+                <h2 class=""><b>Our</b> Eminent Guests</h2>
+                <center>
+                    <hr style="height: 2px; color: #fff; width: 350px;">
+                </center>
+                <p>The presence of eminent guests at an event not only adds prestige but also  <br> contributes to the overall atmosphere and significance of the occasion.</p>
+            </div>
+            <div class="blog-slider">
+
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="content-block">
+                            <h6 class="date">Hon. Dr. Vijay Bhatkar</h6>
+                            <img src="assets/media/about/2.jpg" alt="" style="border-radius: 50px;">
+                            <!-- <a href="#" class="light-btn">Read More</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="content-block">
+                            <h6 class="date">Hon. Chetan Bhagat</h6>
+                            <img src="assets/media/about/3.jpg" alt="" style="border-radius: 50px;">
+                            <!-- <a href="#" class="light-btn">Read More</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="content-block">
+                            <h6 class="date">Hon. R.S. Gawai</h6>
+                            <img src="assets/media/about/4.jpg" alt="" style="border-radius: 50px;">
+                            <!-- <a href="#" class="light-btn">Read More</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="content-block">
+                            <h6 class="date">Hon. Devisingh Shekhawat</h6>
+                            <img src="assets/media/about/5.jpg" alt="" style="border-radius: 50px;">
+                            <!-- <a href="#" class="light-btn">Read More</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="content-block">
+                            <h6 class="date">Hon. Dr. Dinesh Keskar</h6>
+                            <img src="assets/media/about/6.jpg" alt="" style="border-radius: 50px;">
+                            <!-- <a href="#" class="light-btn">Read More</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="content-block">
+                            <h6 class="date">Hon. Kiran Bedi</h6>
+                            <img src="assets/media/about/7.jpg" alt="" style="border-radius: 50px;">
+                            <!-- <a href="#" class="light-btn">Read More</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="content-block">
+                            <h6 class="date">Hon. M.S. Bitta</h6>
+                            <img src="assets/media/about/8.jpg" alt="" style="border-radius: 50px;">
+                            <!-- <a href="#" class="light-btn">Read More</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="content-block">
+                            <h6 class="date">Hon. Dr. Raghunath Mashelkar</h6>
+                            <img src="assets/media/about/9.jpg" alt="" style="border-radius: 50px;">
+                            <!-- <a href="#" class="light-btn">Read More</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="content-block">
+                            <h6 class="date">Hon. Nitin Gadkari</h6>
+                            <img src="assets/media/about/11.jpg" alt="" style="border-radius: 50px;">
+                            <!-- <a href="#" class="light-btn">Read More</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="content-block">
+                            <h6 class="date">Hon. Tessy Thomas</h6>
+                            <img src="assets/media/about/12.jpg" alt="" style="border-radius: 50px;">
+                            <!-- <a href="#" class="light-btn">Read More</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="content-block">
+                            <h6 class="date">Hon. Sujit Banerjee</h6>
+                            <img src="assets/media/about/13.jpg" alt="" style="border-radius: 50px;">
+                            <!-- <a href="#" class="light-btn">Read More</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="content-block">
+                            <h6 class="date">Hon. Dr. Narendra Jadhav</h6>
+                            <img src="assets/media/about/14.jpg" alt="" style="border-radius: 50px;">
+                            <!-- <a href="#" class="light-btn">Read More</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="content-block">
+                            <h6 class="date">Hon. Dr. Mohd. Yumus</h6>
+                            <img src="assets/media/about/15.jpg" alt="" style="border-radius: 50px;">
+                            <!-- <a href="#" class="light-btn">Read More</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="content-block">
+                            <h6 class="date">Hon. Vinod Tawade</h6>
+                            <img src="assets/media/about/16.jpg" alt="" style="border-radius: 50px;">
+                            <!-- <a href="#" class="light-btn">Read More</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="content-block">
+                            <h6 class="date">Hon. Devendra Fadanvis</h6>
+                            <img src="assets/media/about/17.jpg" alt="" style="border-radius: 50px;">
+                            <!-- <a href="#" class="light-btn">Read More</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="content-block">
+                            <h6 class="date">Hon. Navjot Singh Sidhu</h6>
+                            <img src="assets/media/about/21.jpg" alt="" style="border-radius: 50px;">
+                            <!-- <a href="#" class="light-btn">Read More</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="content-block">
+                            <h6 class="date">Hon. S. Guruprasad</h6>
+                            <img src="assets/media/about/22.jpg" alt="" style="border-radius: 50px;">
+                            <!-- <a href="#" class="light-btn">Read More</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="content-block">
+                            <h6 class="date">Hon. Sri Sri Ravi Shankar</h6>
+                            <img src="assets/media/about/23.jpg" alt="" style="border-radius: 50px;">
+                            <!-- <a href="#" class="light-btn">Read More</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="content-block">
+                            <h6 class="date">Hon. Gaur Gopal Das</h6>
+                            <img src="assets/media/about/34.jpg" alt="" style="border-radius: 50px;">
+                            <!-- <a href="#" class="light-btn">Read More</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="content-block">
+                            <h6 class="date">Hon. B.K. Shivani</h6>
+                            <img src="assets/media/about/37.jpg" alt="" style="border-radius: 50px;">
+                            <!-- <a href="#" class="light-btn">Read More</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="content-block">
+                            <h6 class="date">Hon. Gyanvatsal Swami</h6>
+                            <img src="assets/media/about/39.jpg" alt="" style="border-radius: 50px;">
+                            <!-- <a href="#" class="light-btn">Read More</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="content-block">
+                            <h6 class="date">Hon. Laxmi Agarwal</h6>
+                            <img src="assets/media/about/40.jpg" alt="" style="border-radius: 50px;">
+                            <!-- <a href="#" class="light-btn">Read More</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="blog-item">
+                        <div class="content-block">
+                            <h6 class="date">Hon. Dr. A.P.J. Abdul Kalam</h6>
+                            <img src="assets/media/about/1.jpg" alt="" style="border-radius: 50px;">
+                            <!-- <a href="#" class="light-btn">Read More</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- client Area end -->
+
+    <!-- contact Area start -->
+    <section class="contact inverse-bg pt-50">
+        <div class="container">
+            <div class="heading text-center">
+                <h2 class=""><b>Connect</b> With Us Today!</h2>
+                <p>We're here to help! Whether you have a question about our <br> Events, need assistance with a
+                    reading, or simply want to <br> say hello, our team is always happy to chat.</p>
+            </div>
+            <div class="position-relative">
+                <div class="col-xxl-9 col-12">
+                    <div class="contact-block">
+                        <div class="col-xxl-8 col-12">
+                            <form method="post" action="#" class="contact-form">
+                                <div class="row">
+                                    <div class="col-lg-6 col-12">
+                                        <div class="form-group mb-24">
+                                            <input type="text" class="form-control" id="name" name="name" required
+                                                placeholder="Your Name">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-12">
+                                        <div class="form-group mb-24">
+                                            <input type="email" class="form-control" id="email" name="email" required
+                                                placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group mb-24">
+                                            <input type="text" class="form-control" id="Subject" name="Subject" required
+                                                placeholder="Subject">
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group mb-24">
+                                            <textarea class="form-control" required name="message"
+                                                placeholder="Your Message"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit" class="light-btn active w-100">Send Message</button>
+                                </div>
+                                <div id="message" class="alert-msg"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="information-box">
+                    <h4 class="fs-47 mb-8">Reach Out & Find Us Today</h4>
+                    <p>We're here to help! Whether you have a question about our Events, need assistance with a
+                        reading, or simply want to say hello, our team is always happy to chat.</p>
+                    <a href="tel:+91-7212970338" class="social-link mb-24"><i class="fal fa-phone-alt"></i>
+                        +91-7212970338</a>
+                    <a href="mailto:prpotepatilcollege@gmail.com" class="social-link mb-24"><i
+                            class="fal fa-envelope"></i>
+                        techelons@prpotepatilengg.ac.in</a>
+                    <a class="social-link mb-50"> <i class="fal fa-map-marker-alt"></i>P. R. Pote Patil Group of
+                        Educational Institutions, Amravati. Pote Estate, Pote Patil Road, Amravati.</a>
+                    <h5 class="fs-27 fw-24">Follow Us:</h5>
+                    <ul class="social-icon list-unstyled">
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li>
+                            <a href="#">
+                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2_6254)">
+                                        <path
+                                            d="M31.6553 6.43528C29.6423 6.52805 29.6863 6.52048 29.4587 6.53953L30.6509 3.13499C30.6509 3.13499 26.9297 4.50388 25.9863 4.74876C23.5088 2.52195 19.8262 2.42356 17.1934 4.04173C15.0374 5.36716 13.8801 7.64329 14.2661 10.3037C10.0701 9.72141 6.53467 7.7324 3.74341 4.37937L2.8606 3.31907L2.20093 4.53049C1.36719 6.06126 1.09033 7.8115 1.42114 9.45872C1.55688 10.1345 1.7876 10.779 2.10718 11.3825L1.34985 11.0891L1.26001 12.3545C1.16895 13.6399 1.59692 15.1404 2.40503 16.3679C2.63257 16.7136 2.92554 17.0932 3.29687 17.4678L2.90552 17.4077L3.38306 18.8576C4.01074 20.7627 5.31445 22.2365 7.00635 23.0559C5.31665 23.7729 3.95166 24.2304 1.70801 24.9685L-0.344727 25.6433L1.55127 26.6799C2.27417 27.0752 4.82861 28.3952 7.35254 28.7912C12.9629 29.6711 19.2795 28.9546 23.532 25.1247C27.1138 21.8989 28.2891 17.3103 28.0449 12.5351C28.0081 11.8122 28.2061 11.1223 28.6025 10.5928C29.3967 9.53245 31.6504 6.44236 31.6553 6.43528ZM27.1033 9.4697C26.4448 10.3489 26.115 11.4717 26.1741 12.6308C26.4204 17.4475 25.1099 21.1828 22.2786 23.7326C18.9712 26.7114 13.6365 27.8806 7.64282 26.9404C6.55737 26.7702 5.43555 26.3891 4.50708 26.0085C6.38818 25.3613 7.84082 24.7844 10.1868 23.674L13.4617 22.124L9.84595 21.8926C8.11401 21.7817 6.67187 20.9424 5.7854 19.5796C6.2561 19.5522 6.70996 19.4761 7.16186 19.3501L10.6104 18.3896L7.13306 17.5381C5.44336 17.1242 4.48022 16.1133 3.96973 15.3379C3.63452 14.8283 3.41553 14.3064 3.28418 13.8252C3.63281 13.9187 4.03931 13.9853 4.69482 14.0503L7.91333 14.3686L5.36328 12.3794C3.52588 10.9463 2.78955 8.79319 3.32935 6.72337C9.06372 12.6711 15.7966 12.2241 16.4744 12.3813C16.3252 10.9324 16.3213 10.9289 16.2822 10.791C15.4143 7.72288 17.3164 6.16502 18.1743 5.63767C19.9663 4.53635 22.8108 4.37034 24.781 6.18479C25.2065 6.57639 25.782 6.73045 26.3206 6.59666C26.804 6.47654 27.2007 6.34934 27.5891 6.21091L26.7805 8.52L27.8127 8.52073C27.6179 8.78196 27.3843 9.0947 27.1033 9.4697Z"
+                                            fill="#797D86" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2_6254">
+                                            <rect width="32" height="32" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact Area end -->
+
+    <!-- footer Area start -->
+    <footer class="footer bg" style="padding-top: 100px;">
+        <div class="container">
+            <div class="text-center">
+                <span class="lh-150 color-gray-3 mb-0">©2023 All rights are reserved by <a href="#">PRPGEI</a> | Made
+                    with ❤️ by <strong><a href="https://rushikeshshirke.in/"
+                            style="color: white; text-decoration: underline;" target="_blank">Rushikesh Shirke & Shivraj
+                            Kadam</a></strong></span>
+            </div>
+        </div>
+    </footer>
+    <!-- footer Area end -->
+
+    </div>
+    <!-- Jquery Js -->
+    <script src="assets/js/vendor/jquery-3.6.3.min.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/vendor/slick.min.js"></script>
+    <script src="assets/js/vendor/jquery-appear.js"></script>
+    <script src="assets/js/vendor/jquery-validator.js"></script>
+    <!-- <script src="assets/js/preloader.js"></script> -->
+    <!-- <script src="assets/js/script.js"></script> -->
+    <!-- Site Scripts -->
+    <script src="assets/js/app.js"></script>
+    
+    <!-- <script src="assets/js/timer.js"></script> -->
+</body>
+
+
+</html>
